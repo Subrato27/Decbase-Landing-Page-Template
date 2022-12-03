@@ -1,5 +1,5 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap');
 
 
 /* 
@@ -40,9 +40,13 @@ font-family: 'Poppins', sans-serif;
  
 .design-image {
   position: relative;
-  z-index: 1;
-  
+  z-index: 1;  
 }
+
+.design-image img {
+  border-radius: 140px 0px;
+}
+
 .design-image::after{
   position: absolute;
   content: "";
@@ -57,8 +61,11 @@ font-family: 'Poppins', sans-serif;
 }
 .design-image-two {
   position: relative;
-  z-index: 1;
-  
+  z-index: 1; 
+}
+
+.design-image-two img {
+  border-radius: 140px 0px;
 }
 .design-image-two::after{
   position: absolute;
@@ -82,6 +89,16 @@ font-family: 'Poppins', sans-serif;
 .section-heading h3 {
   font-size: 48px;
   text-transform: capitalize;
+}
+
+.design-text h5{
+  font-family: 'Open Sans', sans-serif;
+  font-size:288px ;
+  font-weight: 700;
+  background-image: url(assets/img/text-bg.png);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
 
 }
 
@@ -229,6 +246,15 @@ font-family: 'Poppins', sans-serif;
 }
 .about-text .section-heading h4{
   font-weight: 500;
+}
+
+/* success area css */
+.success-area{
+  padding:100px 0 ;
+  position: relative;
+}
+.success-area .theme-button{
+  margin-top: 35px;
 }
 
 
