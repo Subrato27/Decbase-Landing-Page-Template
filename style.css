@@ -222,11 +222,15 @@
 /* about area css */
 .about-area{
   padding: 100px 0;
+  position: relative;
 }
 .about-text .section-heading h4{
   font-weight: 500;
 }
 
+.about-area .design {
+  right: 0;
+}
 
 /* success area css */
 .success-area{
@@ -646,13 +650,13 @@
     
 /* hero area css */
   .hero-area{
-    padding: 70px 0;
+    padding: 50px 0;
   }
   .hero-area .hero-text{
     text-align: center;
   }
   .hero-text h2{
-    font-size: 52px;
+    font-size: 42px;
   }
   .hero-area .theme-button{
     margin-bottom: 40px;
@@ -678,12 +682,16 @@
 
 /* service area css */
   .service-area{
-    padding: 70px 0;
+    padding: 60px 0;
   }
   .section-heading{
     text-align: center;
+
   }
-  .design {
+  .section-heading h3{
+    font-size: 30px;
+  }
+  .service-area .design {
     top: -10px;
     left: 20px;
   }
@@ -692,6 +700,10 @@
   }
   .service-area .owl-nav {
     top: -40px;}
+
+    .single-service {
+      padding: 30px 10px 30px 25px;
+    }
 
 
     /* about area css */
@@ -703,6 +715,9 @@
   margin-top: 40px;
 }
 
+.about-area .design{
+  right: 0;
+}
 
 /* success area css */
 
@@ -719,7 +734,7 @@
   /* work area css */
 
   .work-area{
-    padding-top: 70px;
+    padding-top: 60px;
      padding-bottom: 0px;}
   .work-area .single-work{
     margin-bottom: 100px;
@@ -775,11 +790,38 @@
     /* testimonial area css */
 
   .testimonial-area{
-     padding: 70px 0;}
+     padding: 60px 0;}
   .testimonial-area .owl-nav {
-      top: -40px;
+      top: 30px;
      }
-
+     .testimonial-area .design {
+      top: -10px;
+      left: 20px;
+    }
+    
+    .testimonial-content{
+      padding: 30px 0;
+      flex-direction: column;
+      padding-left: 5px;
+      
+    }
+    .testimonial-content::after{
+      top: 90px;
+      right: 0px;
+      left: 0;
+      bottom: 0;
+    }
+    .testimonial-img{
+      margin-bottom: 10px;
+    }
+    .icon-img {
+      position: absolute;
+      right: 30px;
+      top: 110px;
+  }
+  .all-testimonial {
+    margin-top: 0px;
+  }
      /* blog area css */
 
   .blog-area .section-heading {
@@ -797,6 +839,11 @@
 .signup-area{
   padding: 100px 0;
 }
+
+.signup-text h3 {
+  font-size: 35px;
+}
+
 
 /* footer area css */
 
