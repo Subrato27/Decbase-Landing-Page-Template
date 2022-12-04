@@ -45,6 +45,7 @@ font-family: 'Poppins', sans-serif;
 
 .design-image img {
   border-radius: 140px 0px;
+  width: 100%;
 }
 
 .design-image::after{
@@ -257,6 +258,124 @@ font-family: 'Poppins', sans-serif;
   margin-top: 35px;
 }
 
+/* work area css */
+.work-area{
+  padding: 100px 0;
+  background-color: #F8F8F8;
+}
+.single-work {
+  display: flex;
+  justify-content: center;
+}
+
+.all-work{
+  margin-top: 100px;
+}
+.single-work-text{
+  background: #FFFFFF;
+  box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 40px 0px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.single-work-text h3{
+  font-size: 50px;
+}
+
+/* testimonial area css */
+.testimonial-area{
+  padding: 100px 0;
+  position: relative;
+}
+.all-testimonial{
+  position: relative;
+  margin-top: 70px;
+}
+.single-testimonial{
+  padding: 20px;
+}
+.testimonial-content{
+  display: flex;
+  padding: 40px;
+  padding-left: 0;
+  position: relative;
+  z-index: 1;
+}
+.testimonial-content::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  left: 65px;
+  bottom: 0;
+  z-index: -1;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 15px 5px rgba(66, 96, 84, 0.15);
+  border-radius: 70px 0px;
+}
+
+.testimonial-img img{
+  width: 130px !important;
+  height: 130px;
+  border-radius: 35px 0px;
+  margin-right: 20px;
+}
+.testimonial-text h3{
+  font-size: 24px;
+}
+.testimonial-text h3 span{
+  font-size: 16px;
+  color: #646464;
+}
+.icon-img{
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+.icon-img img{
+  width: 30px;
+  height: auto;
+}
+
+.testimonial-area .owl-nav{
+  position: absolute;
+  right: 0;
+  top: -80px;
+}
+.testimonial-area .owl-nav span {
+  height: 29px;
+  width: 30px;
+  color: #646464;
+  background-color: #FFFFFF;
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+.testimonial-area .owl-nav span:hover{
+  background-color: #37806B;
+  color: #FFFFFF;
+}
+
+.testimonial-area .owl-next{
+  margin-left: 15px;
+}
+
+/* Blog area css */
+.blog-area{
+  padding: 100px 0;
+  background-color: #F8F8F8;
+}
+.blog-text{
+  margin-top: 40px;
+}
+.blog-area .section-heading{
+  margin-bottom: 70px;
+}
 
 
 
