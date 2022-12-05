@@ -17,8 +17,7 @@
  h4 {
     font-family: 'Poppins', sans-serif;
     color: #212121;
-    font-weight: 500;
-}
+    font-weight: 500;}
 .theme-button {
   text-decoration: none;
   text-transform: capitalize;
@@ -633,6 +632,7 @@
   .navbar-nav .nav-link{
     font-size: 17px;
   }
+
    
    .header-area .nav-item {
       margin-left: 0;
@@ -866,4 +866,23 @@
   height: 80px;
 }
 
+}
+/* @media (min-width: 768px){
+.container {
+    max-width: 768px;}
+} */
+
+@media (max-width: 767px){
+
+  .design-text h5 {
+    font-size: 180px;
+    font-weight: 700;
+  }
+  .container {
+    --bs-gutter-x: 3.5rem;}
+}
+
+@media (max-width: 520px){
+  .signup-text h3::after {
+    width: 300px;}
 }
